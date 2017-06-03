@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression TestSuite">
+  <test name="Application TestCase">
+	  <classes>
+		  <class name="regression.TestNG_TestClass1"></class>
+		  <class name="regression.TestNG_TestClass2"></class>
+	  </classes>
+  </test>
+</suite>
