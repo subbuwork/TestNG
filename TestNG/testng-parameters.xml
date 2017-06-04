@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Parameter TestSuite">
+  <test name="Parameter TestCase">
+  <parameter name="browsers" value="ff,gc,ie"></parameter>
+  <parameter name="response" value="200"></parameter>
+	  <classes>
+		  <class name="testclasses.TestNG_Parameter"></class>
+	  </classes>
+  </test>
+</suite>
