@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Parallel TestSuite" parallel="tests" thread-count="2">
+<test name="Firfox Browser">
+	<parameter name="browser" value="ff"></parameter>
+	<classes>
+		<class name="org.selenium.TestNG_Selenium_Parallel_Test"></class>
+	</classes>
+</test>
+<test name="Chrome Browser">
+	<parameter name="browser" value="gc"></parameter>
+	<classes>
+		<class name="org.selenium.TestNG_Selenium_Parallel_Test"></class>
+	</classes>
+</test>
+<test name="Edge Browser" enabled="false">
+	<parameter name="browser" value="edge"></parameter>
+	<classes>
+		<class name="org.selenium.TestNG_Selenium_Parallel_Test"></class>
+	</classes>
+</test>
+<test name="IE Browser" enabled="false">
+	<parameter name="browser" value="IE"></parameter>
+	<classes>
+		<class name="org.selenium.TestNG_Selenium_Parallel_Test"></class>
+	</classes>
+</test>
+
+</suite>
